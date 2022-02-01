@@ -1,0 +1,62 @@
+@import url('https://fonts.googleeapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bf.jpg);
+    background-size: cover;
+}
+.contentBox
+{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    background: rgba(209, 233, 255, .5);
+    box-shadow: 0px 0px 15px rgba(255 255 255 / 120%);
+    overflow: hidden;
+}
+.contentBox form .complainBox
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .userBox .inputBox
+{
+    width:100%;
+    margin-bottom: 15px;
+}
+form .button
+{
+    height: 45px;
+    margin: 45px 0;
+}
+form .button a
+{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: #c76283; 
+    cursor: pointer;  
+}
+form .button a:hover
+{
+    background: #4b6d7e;
+}

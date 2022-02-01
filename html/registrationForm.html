@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="../css/registrationStyle.css">
+</head>
+<body>
+    <div class="contentBox">
+       <div class="title">Registration</div>
+       <form action="#">
+           <div class="userBox">
+               <div class="inputBox">
+                   <span class="data">Username</span>
+                   <input type="text" placeholder="Enter your username" required>
+               </div>
+               <div class="inputBox">
+                <span class="data">E-mail</span>
+                <input type="email" placeholder="Enter your e-mail" required>
+               </div>
+               <div class="inputBox">
+                <span class="data">Birth-Date</span>
+                <input type="date" placeholder="Enter your birthday" required>
+               </div>
+               <div class="inputBox">
+                <span class="data">Phone Number</span>
+                <input type="number" placeholder="Enter your phone number" required>
+               </div>
+               <div class="inputBox">
+                <span class="data">Password</span>
+                <input type="password" placeholder="Enter your password" required>
+               </div>
+               <div class="inputBox">
+                <span class="data">Confirm Password</span>
+                <input type="password" placeholder="Enter your password again" required>
+               </div>
+             </div>
+             <div class="genderDetail">
+                 <input type="radio" name="gender" id="dot1">
+                 <input type="radio" name="gender" id="dot2">
+                 <input type="radio" name="gender" id="dot3">
+                 <span class="genderTitle">Gender</span>
+                 <div class="category">
+                     <label for="dot1">
+                         <span class="dot one"></span>
+                         <span class="gender">Male</span>
+                     </label>
+                     <label for="dot2">
+                        <span class="dot two"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="dot3">
+                        <span class="dot three"></span>
+                        <span class="gender">Prefer not to say</span>
+                    </label>
+                 </div>
+             </div>
+             <div class="button">
+                <input type="submit" value="Sign Up" onclick="document.location='../index.html'">
+             </div>
+       </form>
+   </div> 
+</body>
+</html>
