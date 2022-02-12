@@ -1,62 +1,184 @@
-@import url('https://fonts.googleeapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url("https://fonts.googleeapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
 }
-body
-{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../img/bf.jpg);
-    background-size: cover;
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/bf.jpg);
+  background-size: cover;
 }
-.contentBox
-{
-    max-width: 700px;
-    width: 100%;
-    padding: 25px 30px;
-    border-radius: 5px;
-    background: rgba(209, 233, 255, .5);
-    box-shadow: 0px 0px 15px rgba(255 255 255 / 120%);
-    overflow: hidden;
+.contentBox {
+  max-width: 700px;
+  width: 620px;
+  padding: 25px 30px;
+  border-radius: 5px;
+  background: rgba(209, 233, 255, 0.5);
+  box-shadow: 0px 0px 15px rgba(255 255 255 / 120%);
+  overflow: hidden;
 }
-.contentBox form .complainBox
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.contentBox a {
+  display: flex;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: 700;
+  justify-content: flex-end;
 }
-form .userBox .inputBox
-{
-    width:100%;
-    margin-bottom: 15px;
+.contentBox form .complainBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-form .button
-{
-    height: 45px;
-    margin: 45px 0;
+/* for inputBox */
+.inputBox {
+  width: 455px;
+  height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  margin-left: 62px;
 }
-form .button a
-{
-    height: 100%;
-    width: 100%;
-    outline: none;
-    color: #fff;
-    border: none;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    background: #c76283; 
-    cursor: pointer;  
+.inputBox span {
+  font-size: 17px;
+  margin-left: -40px;
+  color: #082230;
+  font-weight: 600;
 }
-form .button a:hover
-{
-    background: #4b6d7e;
+.inputBox input[type="email"] {
+  width: 300px;
+  height: 40px;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 500;
+  border: 2px solid #365463;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #365463;
+  background: transparent;
+  border-radius: 30px;
+}
+.inputBox input[type="submit"] {
+  height: 35px;
+  width: 65px;
+  margin-top: 52px;
+  margin-left: -97px;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: #c76283;
+  cursor: pointer;
+}
+.inputBox input[type="submit"]:hover {
+  background: #4b6d7e;
+}
+/* for pinBox */
+.pinBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 400px;
+  height: 80px;
+  margin-left: 54px;
+}
+.pinBox span {
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #082230;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.pinBox input[type="text"] {
+  width: 300px;
+  height: 40px;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 500;
+  border: 2px solid #365463;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #365463;
+  background: transparent;
+  border-radius: 30px;
+}
+.pinBox input[type="submit"] {
+  height: 35px;
+  width: 65px;
+  margin-top: 30px;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: #c76283;
+  cursor: pointer;
+}
+.pinBox input[type="submit"]:hover {
+  background: #4b6d7e;
+}
+/* for renewPassword */
+.renewPassword {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 400px;
+  height: 80px;
+  margin-left: 54px;
+  margin-top: 30px;
+}
+.renewPassword span {
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #082230;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.renewPassword input[type="password"] {
+  width: 300px;
+  height: 40px;
+  padding: 10px 20px;
+  outline: none;
+  font-weight: 500;
+  border: 2px solid #365463;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #365463;
+  background: transparent;
+  border-radius: 30px;
+}
+.renewPassword input[type="submit"] {
+  height: 35px;
+  width: 90px;
+  margin-top: 30px;
+  margin-left: 15px;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: #c76283;
+  cursor: pointer;
+}
+.renewPassword input[type="submit"]:hover {
+  background: #4b6d7e;
 }
