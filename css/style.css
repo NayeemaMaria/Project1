@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: cursive;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 body {
   background-image: url(../img/backgroundlogin.jpg);
@@ -153,6 +153,9 @@ section .contentBox .formBox .sci li img {
     overflow: hidden;
     margin: 50px;
     /* background: transparent; */
+  }
+  section .contentBox .formBox h2 {
+    margin-left: 40px;
   }
   section .contentBox .formBox h4 {
     color: #607d8b;

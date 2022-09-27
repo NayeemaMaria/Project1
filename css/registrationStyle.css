@@ -115,7 +115,11 @@ form .button input:hover {
 }
 @media (max-width: 584px) {
   .contentBox {
-    max-width: 100%;
+    max-width: 92%;
+    height: 94%;
+  }
+  .contentBox .title {
+    margin-left: 30px;
   }
   form .userBox .inputBox {
     margin-bottom: 15px;
@@ -130,5 +134,9 @@ form .button input:hover {
   }
   .userBox::-webkit-scrollbar {
     width: 0;
+  }
+  .category label span {
+    margin-right: 15px;
+    font-size: 12px;
   }
 }

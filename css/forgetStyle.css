@@ -182,3 +182,46 @@ body {
 .renewPassword input[type="submit"]:hover {
   background: #4b6d7e;
 }
+@media (max-width: 600px) {
+.contentBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 93%;
+    height: 70%;
+    z-index: 2;
+  }
+  .contentBox a{
+    position: absolute;
+    margin-top: -376px;
+    margin-right: -280px;
+  }
+  .complainBox {
+    width: 100%;
+    height: 100%;
+  }
+  .inputBox input{
+    max-width: 224px;
+    margin-left: 37px;
+  }
+  .inputBox span{
+    font-size: 15px;
+    align-self: center;
+    width: 274px;
+  }
+  .inputBox input[type="submit"]{
+    margin-left: -89px;
+  }
+  .pinBox input{
+    max-width: 224px;
+  }
+  .pinBox input[type="submit"]{
+    margin-left: -88px;
+  }
+  .renewPassword input{
+    max-width: 224px;
+  }
+  .renewPassword input[type="submit"]{
+    margin-left: -63px;
+  }
+}
